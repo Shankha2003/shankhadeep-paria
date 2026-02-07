@@ -44,7 +44,7 @@ const Header: React.FC<HeaderProps> = ({ darkMode, toggleDarkMode, isMuted, togg
         <div className="glass h-12 flex items-center px-4 rounded-full pointer-events-auto">
           <div className="w-8 h-8 rounded-full accent-1-gradient flex items-center justify-center overflow-hidden shadow-[0_0_15px_rgba(254,176,93,0.3)]">
             <img 
-              src="public/images/me.jpeg" 
+              src="/images/me.jpeg" 
               alt="Logo" 
               className="w-full h-full object-cover"
             />

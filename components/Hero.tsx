@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { ArrowDownRight } from 'lucide-react';
 
 const HERO_IMAGES = [
-  "public/images/me2.jpg"
+  "/images/me2.jpg"
 ];
 
 const PHRASES = [
