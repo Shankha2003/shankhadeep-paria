@@ -162,7 +162,7 @@ const Hero: React.FC = () => {
           className="m-0 p-0 mb-3"
         >
           <img 
-            src="public/gif/cat.gif" 
+            src="/gif/cat.gif" 
             alt="Creative Sparkle"
             className="w-16 h-16 object-contain opacity-80 filter brightness-110 drop-shadow-[0_0_12px_rgba(254,176,93,0.4)]"
           />

@@ -45,7 +45,7 @@ const App: React.FC = () => {
       <audio 
         ref={audioRef} 
         loop 
-        src="public/music/calm.mp3" 
+        src="/music/calm.mp3" 
       />
 
       <Header 
