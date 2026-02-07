@@ -75,7 +75,7 @@ export const SERVICES: Service[] = [
     description: 'Research, wireframing, prototyping, and interaction design for intuitive user experiences.',
     icon: 'Layout',
     image: '/images/service-uiux.jpg',
-    link: 'https://www.behance.net/YOUR_UIUX_PROJECT'
+    link: 'https://www.behance.net/shankhaparia'
   },
   {
     id: 's2',
@@ -83,7 +83,7 @@ export const SERVICES: Service[] = [
     description: 'Custom artwork, character designs, posters, and visual content for brands and personal projects.',
     icon: 'Feather',
     image: '/images/service-illustration.jpg',
-    link: 'https://www.behance.net/YOUR_ART_PROJECT'
+    link: 'https://www.behance.net/shankhaparia'
   },
 ];
 export const INTERESTS: Interest[] = [
