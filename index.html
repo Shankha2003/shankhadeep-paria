@@ -4,16 +4,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/x-icon" href="/images/me.jpeg" />
+  
+    <meta name="application-name" content="Shankhadeep Paria Portfolio">
+    <meta name="apple-mobile-web-app-title" content="Shankhadeep Paria Portfolio">
+
+    <meta property="og:site_name" content="Shankhadeep Paria Portfolio">
+    <meta property="og:title" content="Shankhadeep Paria | UI/UX Designer">
+    <meta property="og:description" content="Portfolio of Shankhadeep Paria — UI/UX Designer crafting thoughtful, user-friendly and visually refined digital experiences.">
+    <meta property="og:url" content="https://shankhadeep-paria.vercel.app">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://shankhadeep-paria.vercel.app/images/me.jpeg">
+
     <meta name="google-site-verification" content="D0dROhrAnGqd0OnyULNqMeVn-yCrPRzM42gJsLSJe7k" />
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "WebSite",
-      "name": "Shankhadeep Paria",
-      "alternateName": ["Shankha", "Shankhadeep Portfolio"],
-      "url": "https://shankhadeep-paria.vercel.app/"
-    }
-    </script>
     <title>Shankhadeep Paria | UI/UX Designer</title>
     <meta name="title" content="Shankhadeep Paria | UI/UX Designer" />
     <meta name="description" content="Portfolio of Shankhadeep Paria — a UI/UX Designer crafting thoughtful, user-friendly and visually refined digital experiences, interfaces and product case studies." />
@@ -186,9 +188,31 @@
     }
     </script>
   <link rel="stylesheet" href="/index.css">
-</head>
-  <body>
-    <div id="root"></div>
-  <script type="module" src="/index.tsx"></script>
-</body>
+
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@graph":[
+      {
+        "@type":"WebSite",
+        "@id":"https://shankhadeep-paria.vercel.app/#website",
+        "url":"https://shankhadeep-paria.vercel.app/",
+        "name":"Shankhadeep Paria Portfolio",
+        "alternateName":"Shankhadeep Paria"
+      },
+      {
+        "@type":"Person",
+        "@id":"https://shankhadeep-paria.vercel.app/#person",
+        "name":"Shankhadeep Paria",
+        "url":"https://shankhadeep-paria.vercel.app/",
+        "jobTitle":"UI/UX Designer"
+      }
+    ]
+  }
+  </script>
+  </head>
+    <body>
+      <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
 </html>
